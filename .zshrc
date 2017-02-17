@@ -93,5 +93,7 @@ source $ZSH/oh-my-zsh.sh
 alias ng="/usr/local/Cellar/node/7.1.0/lib/node_modules/angular-cli/bin/ng"
 alias typings="/usr/local/Cellar/node/7.1.0/lib/node_modules/typings/dist/bin.js"
 alias elm-format="/usr/local/lib/elm-format"
+alias postgres-start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias postgres-stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 
 export PATH="$HOME/.yarn/bin:$PATH"
