@@ -306,6 +306,8 @@ you should place your code here."
               )
 )
 
+;; (setq-default evil-escape-key-sequence "jk")
+
 (setq-default dotspacemacs-configuration-layers '(themes-megapack))
 (setq-default dotspacemacs-themes '(list-themes-here))
 ;; Do not write anything past this comment. This is where Emacs will
