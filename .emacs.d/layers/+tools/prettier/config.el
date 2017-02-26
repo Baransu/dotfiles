@@ -1,7 +1,7 @@
  (when (configuration-layer/layer-usedp 'prettier)
   (setq prettier-target-mode "react-mode")
   (setq prettier-command "prettier")
-  (setq prettier-args '("--single-quote" "--trailing-comma"))
+  (setq prettier-args '("--single-quote"))
 
   (load-file "~/.emacs.d/layers/+tools/prettier/prettier-js.el")
   (require 'prettier-js)
