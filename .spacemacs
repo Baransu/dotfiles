@@ -290,6 +290,8 @@ you should place your code here."
 (global-set-key (kbd "C-`") 'select-window-0)
 (global-set-key (kbd "C-1") 'select-window-1)
 (global-set-key (kbd "C-2") 'select-window-2)
+(global-set-key (kbd "C-3") 'select-window-3)
+(global-set-key (kbd "C-4") 'select-window-4)
 
 (add-to-list 'auto-mode-alist '("\\.js\\'" . react-mode))
 
