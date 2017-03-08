@@ -5,7 +5,9 @@ export ZSH=/Users/baransu/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+ZSH_THEME="pure" #"agnoster"
+autoload -U promptinit; promptinit
+prompt pure
 
 DEFAULT_USER="baransu"
 
@@ -51,7 +53,7 @@ DEFAULT_USER="baransu"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-wakatime zsh-autosuggestions)
+plugins=(git zsh-wakatime zsh-autosuggestions zsh-syntax-highlighting)
 
 # User configuration
 
