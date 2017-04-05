@@ -5,11 +5,11 @@ export ZSH=/Users/baransu/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="pure" #"agnoster"
+ZSH_THEME="pure" #"maran" "geoffgarside" "agnoster"
 autoload -U promptinit; promptinit
 prompt pure
 
-DEFAULT_USER="baransu"
+# DEFAULT_USER="baransu"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -99,3 +99,6 @@ alias postgres-start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgr
 alias postgres-stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 
 export PATH="$HOME/.yarn/bin:$PATH"
+
+# OPAM configuration
+. /Users/baransu/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

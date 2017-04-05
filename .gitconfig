@@ -1,0 +1,23 @@
+# This is Git's per-user configuration file.
+[user]
+	email = tomaszcichocinski@gmail.com
+	name = Tomasz Cichocinski
+[core]
+	editor = emacs
+	pager = diff-so-fancy | less --tabs=2 -RFX
+[diff]
+  tool = meld
+[difftool]
+  prompt = false
+[difftool "meld"]
+  trustExitCode = true
+  cmd = open -W -a Meld --args \"$LOCAL\" \"$PWD/$REMOTE\"
+[merge]
+  tool = meld
+[mergetool]
+  prompt = false
+[mergetool "meld"]
+  trustExitCode = true
+  cmd = open -W -a Meld --args --auto-merge \"$PWD/$LOCAL\" \"$PWD/$BASE\" \"$PWD/$REMOTE\" --output=\"$PWD/$MERGED\"
+[init]
+	templatedir = /Users/baransu/.git-templates
