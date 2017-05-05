@@ -57,6 +57,8 @@ plugins=(git zsh-wakatime zsh-autosuggestions zsh-syntax-highlighting)
 
 # User configuration
 
+test -s "$HOME/.kiex/scripts/kiex" && source "$HOME/.kiex/scripts/kiex"
+
 export ANDROID_HOME=/Users/baransu/Library/Android/sdk
 export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
