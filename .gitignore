@@ -1,0 +1,8 @@
+*
+.spacemacs
+.zshrc
+.hyper.js
+.oh-my-zsh/
+.emacs.d/layers/+tools/prettier
+.gitconfig
+.gitignore
