@@ -5,7 +5,7 @@ export ZSH=/Users/baransu/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="pure" #"maran" "geoffgarside" "agnoster"
+ZSH_THEME="refined" #"maran" "geoffgarside" "agnoster"
 autoload -U promptinit; promptinit
 prompt pure
 
