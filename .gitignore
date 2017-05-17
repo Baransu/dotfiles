@@ -6,3 +6,8 @@
 .emacs.d/layers/+tools/prettier
 .gitconfig
 .gitignore
+.atom/config.json
+.atom/init.coffee
+.atom/keymap.cson
+.atom/snippets.cson
+.atom/styles.less

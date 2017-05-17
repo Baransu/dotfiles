@@ -1,0 +1,23 @@
+"*":
+  editor:
+    fontSize: 13
+    softWrap: true
+  "exception-reporting":
+    userId: "c6a4bdab-de6b-4ee0-bc58-47e61d622f29"
+  minimap: {}
+  pigments:
+    sourceNames: [
+      "**/*.css"
+      "**/*.styl"
+      "**/*.stylus"
+      "**/*.less"
+      "**/*.sass"
+      "**/*.scss"
+      "**/*.js"
+    ]
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      showInStatusBar: true
+    prettierOptions:
+      singleQuote: true

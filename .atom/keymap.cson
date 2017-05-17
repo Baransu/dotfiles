@@ -1,0 +1,55 @@
+# Your keymap
+#
+# Atom keymaps work similarly to style heets. Just as style sheets use
+# selectors to apply styles to elements Atom keymaps use selectors to associate
+# keystrokes with events in specific cotexts. Unlike style sheets however,
+# each selector can only be declared one.
+#
+# You can create a new keybinding in ths file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's bilt-in keymap:
+#
+# 'atom-text-editor':
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# You can find more information about kymaps in these guides:
+# * http://flight-manual.atom.io/using-tom/sections/basic-customization/#_customizing_keybindings
+# * http://flight-manual.atom.io/behindatom/sections/keymaps-in-depth/
+#
+# If you're having trouble with your kebindings not working, try the
+# Keybinding Resolver: `Cmd+.` on macOSand `Ctrl+.` on other platforms. See the
+# Debugging Guide for more information:
+# * http://flight-manual.atom.io/hackin-atom/sections/debugging/#check-the-keybindings
+#
+# This file uses CoffeeScript Object Noation (CSON).
+# If you are unfamiliar with CSON, you an read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atm/sections/basic-customization/#_cson
+
+'atom-text-editor':
+  'ctrl-g': 'core:cancel'
+
+'atom-workspace':
+  'ctrl-g': 'core:cancel'
+  'ctrl-/': 'code:undo'
+  'ctrl-x ctrl-f': 'fuzzy-finder:toggle-file-finder'
+  'ctrl-x ctrl-s': 'core:save'
+  'ctrl-up': 'vim-mode-plus:move-up-to-edge'
+  'ctrl-down': 'vim-mode-plus:move-down-to-edge'
+  'ctrl-1': 'window:focus-pane-on-left'
+  'ctrl-2': 'window:focus-pane-on-right'
+
+# VIM INSTERT MODE
+'atom-text-editor.vim-mode-plus.insert-mode':
+  'f d': 'vim-mode-plus:activate-normal-mode'
+
+# VIM NORMAL MODE
+'atom-text-editor.vim-mode-plus.normal-mode':
+  's': 'vim-mode-plus:surround'
+  'ctrl-s': 	'find-and-replace:show'
+  'space tab': 'pane:show-previous-item'

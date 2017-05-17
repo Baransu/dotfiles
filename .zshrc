@@ -9,7 +9,7 @@ ZSH_THEME="refined" #"maran" "geoffgarside" "agnoster"
 autoload -U promptinit; promptinit
 prompt pure
 
-# DEFAULT_USER="baransu"
+DEFAULT_USER="baransu"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
