@@ -31,7 +31,7 @@ You should not put any user code in this function besides modifying the variable
      better-defaults
      javascript
      git
-     prettier
+     ;; prettier
 
      (markdown :variables
                markdown-live-preview-engine 'vmd)
@@ -291,11 +291,11 @@ you should place your code here."
 (global-set-key [M-up] 'move-text-up)
 (global-set-key [M-down] 'move-text-down)
 (global-set-key (kbd "C-§") 'neotree-find-project-root)
-(global-set-key (kbd "C-`") 'winum-select-window-0)
-(global-set-key (kbd "C-1") 'winum-select-window-1)
-(global-set-key (kbd "C-2") 'winum-select-window-2)
-(global-set-key (kbd "C-3") 'winum-select-window-3)
-(global-set-key (kbd "C-4") 'winum-select-window-4)
+(global-set-key (kbd "C-`") 'select-window-0)
+(global-set-key (kbd "C-1") 'select-window-1)
+(global-set-key (kbd "C-2") 'select-window-2)
+(global-set-key (kbd "C-3") 'select-window-3)
+(global-set-key (kbd "C-4") 'select-window-4)
 
 (add-to-list 'auto-mode-alist '("\\.js\\'" . react-mode))
 (add-to-list 'auto-mode-alist '("\\.re\\'" . tuareg-mode))
