@@ -1,23 +1,108 @@
 "*":
-  editor:
-    fontSize: 13
-    softWrap: true
-  "exception-reporting":
-    userId: "c6a4bdab-de6b-4ee0-bc58-47e61d622f29"
-  minimap: {}
-  pigments:
-    sourceNames: [
-      "**/*.css"
-      "**/*.styl"
-      "**/*.stylus"
-      "**/*.less"
-      "**/*.sass"
-      "**/*.scss"
-      "**/*.js"
+  "atom-fuzzy-grep": {}
+  "autocomplete-python":
+    useKite: false
+  "autoupdate-packages":
+    handling: "Update automatically and silently"
+    lastUpdateTimestamp: 1499364364979
+  core:
+    disabledPackages: [
+      "atomic-emacs"
+      "language-lua"
+      "vim-surround"
+      "nuclide"
+      "emacs-plus"
+      "tool-bar"
+      "set-syntax"
+      "haskell-grammar"
+      "language-ini"
+      "language-haskell"
+      "language-ocaml"
+      "linter-gcc"
+      "linter-erb"
+      "language-graphql"
+      "language-swift"
+      "nyancat"
+      "MagicPython"
+      "language-thrift"
+      "linter-jshint"
+      "relative-numbers"
     ]
+    telemetryConsent: "no"
+    themes: [
+      "nucleus-dark-ui"
+      "one-dark-syntax"
+    ]
+    titleBar: "custom-inset"
+  "easy-motion-redux":
+    replaceCharacters: "abcdefghijklmnopqrstuvwxyz"
+  editor:
+    fontFamily: "Hasklig"
+    softWrap: true
+  "exception-reporting": {}
+  "file-icons": {}
+  "linter-eslint": {}
+  "linter-ui-default": {}
+  "merge-conflicts": {}
+  minimap: {}
+  nuclide: {}
+  pigments: {}
+  prettier: {}
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
-      showInStatusBar: true
     prettierOptions:
       singleQuote: true
+  proton:
+    core:
+      alwaysShowWelcomeScreen: true
+      inputProvider: "vim-mode-plus"
+      leaderKey: "space"
+      modeKey: ","
+      "post-init-timeout": 3000
+      quickOpenProvider: "normal"
+      relativeLineNumbers: false
+      selectedLayers: [
+        "core"
+        "tools/git"
+        "tools/linter"
+        "tools/minimap"
+        "lang/clojure"
+        "lang/python"
+        "lang/elixir"
+        "lang/markdown"
+        "lang/rust"
+        "lang/javascript"
+      ]
+      showTabBar: true
+      whichKeyDelay: 0.4
+      whichKeyDelayOnInit: false
+      whichKeyDisabled: false
+      wipeUserConfigs: true
+    lang:
+      javascript:
+        linter: "eslint"
+  "theme-switch":
+    profiles: [
+      "nucleus-dark-ui one-dark-syntax"
+      "nucleus-dark-ui atom-dark-fusion-syntax"
+      "atom-material-ui atom-material-syntax"
+      "atom-dark-ui atom-dark-syntax"
+      "atom-light-ui atom-light-syntax"
+      "one-dark-ui one-dark-syntax"
+      "one-light-ui one-light-syntax"
+    ]
+  "tree-view": {}
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  "vim-mode-plus":
+    incrementalSearch: true
+    useSmartcaseForSearch: true
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  welcome:
+    showOnStartup: false
+  zentabs:
+    maximumOpenedTabs: 10
+    neverCloseUnsaved: true

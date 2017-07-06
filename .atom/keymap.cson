@@ -33,11 +33,11 @@
 
 'atom-text-editor':
   'ctrl-g': 'core:cancel'
+  'ctrl-x ctrl-f': 'fuzzy-finder:toggle-file-finder'
 
 'atom-workspace':
   'ctrl-g': 'core:cancel'
   'ctrl-/': 'code:undo'
-  'ctrl-x ctrl-f': 'fuzzy-finder:toggle-file-finder'
   'ctrl-x ctrl-s': 'core:save'
   'ctrl-up': 'vim-mode-plus:move-up-to-edge'
   'ctrl-down': 'vim-mode-plus:move-down-to-edge'
