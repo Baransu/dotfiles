@@ -32,7 +32,7 @@ You should not put any user code in this function besides modifying the variable
      better-defaults
      javascript
      git
-     ;; prettier
+     prettier
 
      (markdown :variables
                markdown-live-preview-engine 'vmd)
@@ -128,11 +128,11 @@ values."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(atom-one-dark
+   dotspacemacs-themes '(darktooth
+                         atom-one-dark
                          jbeans
                          zenburn
                          emacs-snazzy
-                         darktooth
                          solarized-light
                          spacemacs-dark
                          solarized-dark
@@ -299,6 +299,7 @@ you should place your code here."
 (global-set-key (kbd "C-4") 'select-window-4)
 
 (add-to-list 'auto-mode-alist '("\\.js\\'" . react-mode))
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . react-mode))
 (add-to-list 'auto-mode-alist '("\\.re\\'" . tuareg-mode))
 
 ;; scroll one line at a time (less "jumpy" than defaults)
@@ -308,7 +309,7 @@ you should place your code here."
 
 (add-hook 'prog-mode-hook 'rainbow-mode)
 (global-hl-line-mode -1) ; Disable current line highlight
-;; (global-linum-mode) ; Show line numbers by default
+(global-linum-mode) ; Show line numbers by default
 
 (setq-default js2-basic-offset 2
               js-indent-level 2

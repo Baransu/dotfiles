@@ -1,32 +1,20 @@
 "*":
-  "atom-fuzzy-grep": {}
-  "autocomplete-python":
-    useKite: false
+  "atom-material-ui": {}
+  "atom-package-deps": {}
   "autoupdate-packages":
     handling: "Update automatically and silently"
-    lastUpdateTimestamp: 1499364364979
+    lastUpdateTimestamp: 1504793128354
   core:
     disabledPackages: [
-      "atomic-emacs"
-      "language-lua"
-      "vim-surround"
-      "nuclide"
-      "emacs-plus"
-      "tool-bar"
-      "set-syntax"
-      "haskell-grammar"
-      "language-ini"
-      "language-haskell"
-      "language-ocaml"
-      "linter-gcc"
-      "linter-erb"
-      "language-graphql"
-      "language-swift"
-      "nyancat"
-      "MagicPython"
-      "language-thrift"
-      "linter-jshint"
       "relative-numbers"
+      "linter-jshint"
+      "iex"
+      "atom-elixir"
+      "emmet"
+      "flow-ide"
+      "linter-flow"
+      "hyperclick"
+      "linter-ui-default"
     ]
     telemetryConsent: "no"
     themes: [
@@ -39,15 +27,12 @@
   editor:
     fontFamily: "Hasklig"
     softWrap: true
+  "elm-format": {}
   "exception-reporting": {}
-  "file-icons": {}
-  "linter-eslint": {}
+  "ide-flowtype": {}
+  "linter-flow": {}
   "linter-ui-default": {}
-  "merge-conflicts": {}
-  minimap: {}
-  nuclide: {}
-  pigments: {}
-  prettier: {}
+  parinfer: {}
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
@@ -67,9 +52,8 @@
         "tools/git"
         "tools/linter"
         "tools/minimap"
+        "tools/todo"
         "lang/clojure"
-        "lang/python"
-        "lang/elixir"
         "lang/markdown"
         "lang/rust"
         "lang/javascript"
@@ -92,12 +76,10 @@
       "one-dark-ui one-dark-syntax"
       "one-light-ui one-light-syntax"
     ]
-  "tree-view": {}
   "vim-mode":
     useClipboardAsDefaultRegister: true
     useSmartcaseForSearch: true
   "vim-mode-plus":
-    incrementalSearch: true
     useSmartcaseForSearch: true
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
