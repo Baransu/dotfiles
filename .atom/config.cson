@@ -1,25 +1,56 @@
 "*":
+  Zen: {}
   "atom-material-ui": {}
   "atom-package-deps": {}
   "autoupdate-packages":
     handling: "Update automatically and silently"
-    lastUpdateTimestamp: 1504793128354
+    lastUpdateTimestamp: 1505718836376
   core:
     disabledPackages: [
-      "relative-numbers"
       "linter-jshint"
-      "iex"
-      "atom-elixir"
-      "emmet"
       "flow-ide"
       "linter-flow"
       "hyperclick"
-      "linter-ui-default"
+      "linter-rust"
+      "autocomplete-erlang"
+      "racer"
+      "nuclide"
+      "language-rust"
+      "language-erlang"
+      "language-matlab"
+      "welcome"
+      "react"
+      "autoclose-html"
+      "docblockr"
+      "javascript-snippets"
+      "react-snippets"
+      "emmet"
+      "autocomplete-html-entities"
+      "atom-ternjs"
+      "linter-less"
+      "linter-elm-make"
+      "todo-show"
+      "atom-css-comb"
+      "linter-markdown"
+      "linter-jsonlint"
+      "linter-clojure"
+      "linter-sass-lint"
+      "markdown-scroll-sync"
+      "linter-csslint"
+      "linter-elixirc"
+      "merge-conflicts"
+      "language-diff"
+      "atomatigit"
+      "iex"
+      "language-elixir"
+      "atom-elixir"
+      "reason-refmt"
+      "linter-refmt"
     ]
     telemetryConsent: "no"
     themes: [
       "nucleus-dark-ui"
-      "one-dark-syntax"
+      "snazzy-syntax"
     ]
     titleBar: "custom-inset"
   "easy-motion-redux":
@@ -28,7 +59,9 @@
     fontFamily: "Hasklig"
     softWrap: true
   "elm-format": {}
+  elmjutsu: {}
   "exception-reporting": {}
+  fonts: {}
   "ide-flowtype": {}
   "linter-flow": {}
   "linter-ui-default": {}
@@ -46,29 +79,22 @@
       modeKey: ","
       "post-init-timeout": 3000
       quickOpenProvider: "normal"
-      relativeLineNumbers: false
+      relativeLineNumbers: true
       selectedLayers: [
         "core"
-        "tools/git"
-        "tools/linter"
         "tools/minimap"
-        "tools/todo"
         "lang/clojure"
-        "lang/markdown"
-        "lang/rust"
-        "lang/javascript"
+        "lang/elm"
       ]
       showTabBar: true
       whichKeyDelay: 0.4
       whichKeyDelayOnInit: false
       whichKeyDisabled: false
       wipeUserConfigs: true
-    lang:
-      javascript:
-        linter: "eslint"
+  "reason-refmt": {}
   "theme-switch":
     profiles: [
-      "nucleus-dark-ui one-dark-syntax"
+      "nucleus-dark-ui snazzy-syntax"
       "nucleus-dark-ui atom-dark-fusion-syntax"
       "atom-material-ui atom-material-syntax"
       "atom-dark-ui atom-dark-syntax"
@@ -76,6 +102,7 @@
       "one-dark-ui one-dark-syntax"
       "one-light-ui one-light-syntax"
     ]
+  "tree-view": {}
   "vim-mode":
     useClipboardAsDefaultRegister: true
     useSmartcaseForSearch: true
@@ -85,6 +112,8 @@
     apikey: "Saved in your ~/.wakatime.cfg file"
   welcome:
     showOnStartup: false
+  zen:
+    width: 100
   zentabs:
     maximumOpenedTabs: 10
     neverCloseUnsaved: true

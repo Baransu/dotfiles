@@ -62,8 +62,11 @@ test -s "$HOME/.kiex/scripts/kiex" && source "$HOME/.kiex/scripts/kiex"
 export ANDROID_HOME=/Users/baransu/Library/Android/sdk
 export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
-export PATH="$PATH:$HOME/.yarn/bin"
-export REACT_EDITOR=emacs
+export PATH="$HOME/.kiex/elixirs/elixir-1.4.5/bin:$PATH"
+export PATH=/usr/local/bin:$PATH
+export REACT_EDITOR=atom
+
+export PATH="$HOME/.yarn/bin:$PATH"
 
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -100,8 +103,6 @@ alias elm-format="/usr/local/lib/elm-format"
 alias postgres-start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias postgres-stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 alias octave="octave-cli"
-
-export PATH="$HOME/.yarn/bin:$PATH"
 
 # OPAM configuration
 . /Users/baransu/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
