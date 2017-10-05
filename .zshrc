@@ -7,6 +7,9 @@ export ZSH=/Users/baransu/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="refined" #"maran" "geoffgarside" "agnoster"
 autoload -U promptinit; promptinit
+
+PURE_PROMPT_SYMBOL=λ
+
 prompt pure
 
 DEFAULT_USER="baransu"

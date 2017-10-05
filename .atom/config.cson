@@ -4,7 +4,7 @@
   "atom-package-deps": {}
   "autoupdate-packages":
     handling: "Update automatically and silently"
-    lastUpdateTimestamp: 1505718836376
+    lastUpdateTimestamp: 1507148119452
   core:
     disabledPackages: [
       "linter-jshint"
@@ -44,8 +44,8 @@
       "iex"
       "language-elixir"
       "atom-elixir"
-      "reason-refmt"
-      "linter-refmt"
+      "editor-stats"
+      "linter"
     ]
     telemetryConsent: "no"
     themes: [
